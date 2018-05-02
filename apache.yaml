@@ -1,5 +1,6 @@
 packages:
   - 'php-mysql'
+  - 'php-gd'
 sites: 
   proto-adminer:
     install_from:

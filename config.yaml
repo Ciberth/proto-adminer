@@ -1,4 +1,8 @@
 options:
+  port:
+    type: int
+    default: 80
+    description: "Port number for apache"
   mysqldb-name:
     type: string
     default: "mysqldb1"

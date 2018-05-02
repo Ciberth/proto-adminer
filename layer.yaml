@@ -1,1 +1,1 @@
-includes: ['layer:basic', 'layer:apache-php', 'interface:mysql-shared']
+includes: ['layer:basic', 'layer:apache-php', 'interface:http', 'interface:mysql-shared']
