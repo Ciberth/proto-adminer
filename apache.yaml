@@ -1,0 +1,8 @@
+packages:
+  - 'php-mysql'
+sites: 
+  proto-adminer:
+    install_from:
+      source: https://github.com/Ciberth/mPHP/raw/master/app/v1/appv1.tar.gz
+      checksum: decafa6984545a1a855b6dca1a345779bb640177dd5eb4710981c2640e5ef403
+      hash_type: sha256

@@ -1,0 +1,14 @@
+name: proto-adminer
+summary: Few Php pages + adminer.php on apache that require a mysql charm and use mysql-shared interface. 
+maintainer: student <student@student-VirtualBox>
+description: |
+  This charm is meant as an example to work with layers, interfaces and the reactive framework. It uses the apache layer and the mysql-shared interface. Some php pages will be deployed (including adminer.php) and the mysql database will be populated as well. 
+tags:
+  - ops
+subordinate: false
+provides:
+  website:
+    interface: http
+requires:
+  mysqldatabase:
+    interface: mysql-shared

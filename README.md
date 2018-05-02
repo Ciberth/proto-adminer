@@ -1,2 +1,5 @@
-# proto-adminer
-Prototype of adminer (php) apache layer and mysql-shared interface
+# Proto-adminer: A basic php app that uses mysql
+
+
+
+TODO add details when finished

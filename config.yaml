@@ -1,0 +1,13 @@
+options:
+  mysqldb-name:
+    type: string
+    default: "mysqldb1"
+    description: "Databasename for mysql"
+  mysqldb-user:
+    type: string
+    default: "admin"
+    description: "Database user for db for mysql"
+  mysqldb-password:
+    type: string
+    default: "admin"
+    description: "Database password for db for mysql"
